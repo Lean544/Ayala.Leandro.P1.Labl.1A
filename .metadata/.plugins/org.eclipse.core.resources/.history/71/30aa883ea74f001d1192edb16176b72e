@@ -1,0 +1,21 @@
+/*
+ * calculos.c
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: ayala
+ */
+
+
+int inicializar (eMascota personas[],int len){
+	int retorno=0;
+	int i;
+
+	if(personas != NULL && len > 0){
+		for(i=0;i<len;i++){
+			personas[i].isEmpty=1;
+			retorno=1;
+		}
+	}
+
+	return retorno;
+}

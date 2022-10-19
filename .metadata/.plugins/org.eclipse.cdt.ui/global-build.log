@@ -1,0 +1,709 @@
+09:09:01 **** Rebuild of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:29:5: warning: implicit declaration of function 'inicializar' [-Wimplicit-function-declaration]
+   29 |  if(inicializar()==1){
+      |     ^~~~~~~~~~~
+..\src\Primer Parcial.c:32:15: warning: implicit declaration of function 'utn_getNumero' [-Wimplicit-function-declaration]
+   32 |     retorno = utn_getNumero(&menu,"1.Alta de mascota\n"
+      |               ^~~~~~~~~~~~~
+..\src\Primer Parcial.c:39:19: warning: implicit declaration of function 'ingresar' [-Wimplicit-function-declaration]
+   39 |        retornoUno=ingresar();
+      |                   ^~~~~~~~
+..\src\Primer Parcial.c:93:2: error: expected declaration or statement at end of input
+   93 |  }
+      |  ^
+09:09:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:30:5: warning: implicit declaration of function 'inicializar' [-Wimplicit-function-declaration]
+   30 |  if(inicializar()==1){
+      |     ^~~~~~~~~~~
+..\src\Primer Parcial.c:40:19: warning: implicit declaration of function 'ingresar' [-Wimplicit-function-declaration]
+   40 |        retornoUno=ingresar();
+      |                   ^~~~~~~~
+..\src\Primer Parcial.c:94:2: error: expected declaration or statement at end of input
+   94 |  }
+      |  ^
+09:15:42 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:33:5: warning: implicit declaration of function 'inicializar' [-Wimplicit-function-declaration]
+   33 |  if(inicializar(mascotas,TAM)==1){
+      |     ^~~~~~~~~~~
+..\src\Primer Parcial.c:43:19: warning: implicit declaration of function 'ingresar' [-Wimplicit-function-declaration]
+   43 |        retornoUno=ingresar();
+      |                   ^~~~~~~~
+..\src\Primer Parcial.c:97:2: error: expected declaration or statement at end of input
+   97 |  }
+      |  ^
+09:16:00 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:19: warning: implicit declaration of function 'ingresar' [-Wimplicit-function-declaration]
+   43 |        retornoUno=ingresar();
+      |                   ^~~~~~~~
+..\src\Primer Parcial.c:97:2: error: expected declaration or statement at end of input
+   97 |  }
+      |  ^
+09:19:33 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:97:2: error: expected declaration or statement at end of input
+   97 |  }
+      |  ^
+09:19:45 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:47:10: warning: 'retornoUno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   47 |        if(retornoUno==1){
+      |          ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:29:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:33:12: warning: unused variable 'servicios' [-Wunused-variable]
+   33 |  eServicio servicios[3];
+      |            ^~~~~~~~~
+..\src\Primer Parcial.c:32:9: warning: unused variable 'colores' [-Wunused-variable]
+   32 |  eColor colores[5];
+      |         ^~~~~~~
+..\src\Primer Parcial.c:31:8: warning: unused variable 'tipos' [-Wunused-variable]
+   31 |  eTipo tipos [3];
+      |        ^~~~~
+..\src\Primer Parcial.c:49:10: warning: 'retornoUno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   49 |        if(retornoUno==1){
+      |          ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:20:2: warning: braces around scalar initializer
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |  ^~~~~
+..\src\calculos.c:20:2: note: (near initialization for 'auxTipos.id')
+..\src\calculos.c:20:24: warning: excess elements in scalar initializer
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                        ^~~~~
+..\src\calculos.c:20:24: note: (near initialization for 'auxTipos.id')
+..\src\calculos.c:20:32: warning: overflow in conversion from 'int' to 'char' changes value from '1001' to '-23' [-Woverflow]
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                                ^~~~
+..\src\calculos.c:20:37: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                                     ^~~~~~~
+..\src\calculos.c:20:37: note: (near initialization for 'auxTipos.descripcion[1]')
+..\src\calculos.c:20:46: error: extra brace group at end of initializer
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                                              ^
+..\src\calculos.c:20:46: note: (near initialization for 'auxTipos')
+..\src\calculos.c:20:46: warning: excess elements in struct initializer
+..\src\calculos.c:20:46: note: (near initialization for 'auxTipos')
+..\src\calculos.c:20:62: error: extra brace group at end of initializer
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                                                              ^
+..\src\calculos.c:20:62: note: (near initialization for 'auxTipos')
+..\src\calculos.c:20:62: warning: excess elements in struct initializer
+..\src\calculos.c:20:62: note: (near initialization for 'auxTipos')
+..\src\calculos.c:20:76: error: extra brace group at end of initializer
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |                                                                            ^
+..\src\calculos.c:20:76: note: (near initialization for 'auxTipos')
+..\src\calculos.c:20:76: warning: excess elements in struct initializer
+..\src\calculos.c:20:76: note: (near initialization for 'auxTipos')
+..\src\calculos.c:21:2: warning: braces around scalar initializer
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |  ^~~~~~
+..\src\calculos.c:21:2: note: (near initialization for 'auxColores.id')
+..\src\calculos.c:21:27: warning: excess elements in scalar initializer
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                           ^~~~~~~
+..\src\calculos.c:21:27: note: (near initialization for 'auxColores.id')
+..\src\calculos.c:21:37: warning: overflow in conversion from 'int' to 'char' changes value from '5001' to '-119' [-Woverflow]
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                                     ^~~~
+..\src\calculos.c:21:42: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                                          ^~~~~~~~
+..\src\calculos.c:21:42: note: (near initialization for 'auxColores.nombreColor[1]')
+..\src\calculos.c:21:52: error: extra brace group at end of initializer
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                                                    ^
+..\src\calculos.c:21:52: note: (near initialization for 'auxColores')
+..\src\calculos.c:21:52: warning: excess elements in struct initializer
+..\src\calculos.c:21:52: note: (near initialization for 'auxColores')
+..\src\calculos.c:21:66: error: extra brace group at end of initializer
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                                                                  ^
+..\src\calculos.c:21:66: note: (near initialization for 'auxColores')
+..\src\calculos.c:21:66: warning: excess elements in struct initializer
+..\src\calculos.c:21:66: note: (near initialization for 'auxColores')
+..\src\calculos.c:21:80: error: extra brace group at end of initializer
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |                                                                                ^
+..\src\calculos.c:21:80: note: (near initialization for 'auxColores')
+..\src\calculos.c:21:80: warning: excess elements in struct initializer
+..\src\calculos.c:21:80: note: (near initialization for 'auxColores')
+..\src\calculos.c:22:2: warning: braces around scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |  ^~~~~~~~~
+..\src\calculos.c:22:2: note: (near initialization for 'auxServicios.id')
+..\src\calculos.c:22:33: warning: excess elements in scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                 ^~~~~~~
+..\src\calculos.c:22:33: note: (near initialization for 'auxServicios.id')
+..\src\calculos.c:22:41: warning: excess elements in scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                         ^~~
+..\src\calculos.c:22:41: note: (near initialization for 'auxServicios.id')
+..\src\calculos.c:22:47: warning: overflow in conversion from 'int' to 'char' changes value from '20001' to '33' [-Woverflow]
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                               ^~~~~
+..\src\calculos.c:22:53: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                                     ^~~~~~~~~~~~~~~
+..\src\calculos.c:22:53: note: (near initialization for 'auxServicios.descripcion[1]')
+..\src\calculos.c:22:69: warning: overflow in conversion from 'int' to 'char' changes value from '800' to '32' [-Woverflow]
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                                                     ^~~
+..\src\calculos.c:22:2: warning: braces around scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |  ^~~~~~~~~
+..\src\calculos.c:22:2: note: (near initialization for 'auxServicios.precio')
+..\src\calculos.c:22:81: warning: excess elements in scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                                                                 ^~~~~~~~~~
+..\src\calculos.c:22:81: note: (near initialization for 'auxServicios.precio')
+..\src\calculos.c:22:92: warning: excess elements in scalar initializer
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |                                                                                            ^~~
+..\src\calculos.c:22:92: note: (near initialization for 'auxServicios.precio')
+..\src\calculos.c:22:12: warning: unused variable 'auxServicios' [-Wunused-variable]
+   22 |  eServicio auxServicios={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |            ^~~~~~~~~~~~
+..\src\calculos.c:21:9: warning: unused variable 'auxColores' [-Wunused-variable]
+   21 |  eColor auxColores={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |         ^~~~~~~~~~
+..\src\calculos.c:20:8: warning: unused variable 'auxTipos' [-Wunused-variable]
+   20 |  eTipo auxTipos={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |        ^~~~~~~~
+09:29:35 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:22:12: warning: unused variable 'auxServicios' [-Wunused-variable]
+   22 |  eServicio auxServicios[]={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |            ^~~~~~~~~~~~
+..\src\calculos.c:21:9: warning: unused variable 'auxColores' [-Wunused-variable]
+   21 |  eColor auxColores[]={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |         ^~~~~~~~~~
+..\src\calculos.c:20:8: warning: unused variable 'auxTipos' [-Wunused-variable]
+   20 |  eTipo auxTipos[]={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
+      |        ^~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:31:53 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:25:12: warning: unused variable 'auxServicios' [-Wunused-variable]
+   25 |  eServicio auxServicios[]={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |            ^~~~~~~~~~~~
+..\src\calculos.c:24:9: warning: unused variable 'auxColores' [-Wunused-variable]
+   24 |  eColor auxColores[]={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |         ^~~~~~~~~~
+..\src\calculos.c:22:6: warning: unused variable 'retornoTres' [-Wunused-variable]
+   22 |  int retornoTres=0;
+      |      ^~~~~~~~~~~
+..\src\calculos.c:21:6: warning: unused variable 'retornoDos' [-Wunused-variable]
+   21 |  int retornoDos=0;
+      |      ^~~~~~~~~~
+..\src\calculos.c:20:6: warning: unused variable 'retornoUno' [-Wunused-variable]
+   20 |  int retornoUno=0;
+      |      ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:49:10: warning: 'retornoUno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   49 |        if(retornoUno==1){
+      |          ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:32:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:25:12: warning: unused variable 'auxServicios' [-Wunused-variable]
+   25 |  eServicio auxServicios[]={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |            ^~~~~~~~~~~~
+..\src\calculos.c:24:9: warning: unused variable 'auxColores' [-Wunused-variable]
+   24 |  eColor auxColores[]={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
+      |         ^~~~~~~~~~
+..\src\calculos.c:22:6: warning: unused variable 'retornoTres' [-Wunused-variable]
+   22 |  int retornoTres=0;
+      |      ^~~~~~~~~~~
+..\src\calculos.c:21:6: warning: unused variable 'retornoDos' [-Wunused-variable]
+   21 |  int retornoDos=0;
+      |      ^~~~~~~~~~
+..\src\calculos.c:20:6: warning: variable 'retornoUno' set but not used [-Wunused-but-set-variable]
+   20 |  int retornoUno=0;
+      |      ^~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:32:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:25:12: warning: unused variable 'auxServicios' [-Wunused-variable]
+   25 |  eServicio auxServicios[]={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+      |            ^~~~~~~~~~~~
+..\src\calculos.c:22:6: warning: unused variable 'retornoTres' [-Wunused-variable]
+   22 |  int retornoTres=0;
+      |      ^~~~~~~~~~~
+..\src\calculos.c:21:6: warning: variable 'retornoDos' set but not used [-Wunused-but-set-variable]
+   21 |  int retornoDos=0;
+      |      ^~~~~~~~~~
+..\src\calculos.c:20:6: warning: variable 'retornoUno' set but not used [-Wunused-but-set-variable]
+   20 |  int retornoUno=0;
+      |      ^~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:33:56 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:42:09 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:81:57: warning: comparison between pointer and integer
+   81 |  if(personas!=NULL && tipo!=NULL && color !=NULL && ids >-1 && TAM > 0){
+      |                                                         ^
+..\src\calculos.c:82:35: warning: comparison between pointer and integer
+   82 |   if(buscarLibre(personas,TAM,&pos==1)){
+      |                                   ^~
+..\src\calculos.c:82:35: warning: passing argument 3 of 'buscarLibre' makes pointer from integer without a cast [-Wint-conversion]
+   82 |   if(buscarLibre(personas,TAM,&pos==1)){
+      |                               ~~~~^~~
+      |                                   |
+      |                                   int
+..\src\calculos.c:62:50: note: expected 'int *' but argument is of type 'int'
+   62 | int buscarLibre(eMascota personas[],int len,int* libre){
+      |                                             ~~~~~^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:42:40 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:81:57: warning: comparison between pointer and integer
+   81 |  if(personas!=NULL && tipo!=NULL && color !=NULL && ids > -1 && TAM > 0){
+      |                                                         ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+09:42:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:44:15 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:47:29 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:80:6: warning: unused variable 'flagTipo' [-Wunused-variable]
+   80 |  int flagTipo;
+      |      ^~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:52:29 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:91:32: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+   91 |     utn_getNumero(personas[pos].idTipo,"Ingrese el id del tipo de mascota","Error",1000,1004);
+      |                   ~~~~~~~~~~~~~^~~~~~~
+      |                                |
+      |                                int
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:56:24: note: expected 'int *' but argument is of type 'int'
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |                   ~~~~~^~~~~~~~~~
+..\src\calculos.c:91:5: error: too few arguments to function 'utn_getNumero'
+   91 |     utn_getNumero(personas[pos].idTipo,"Ingrese el id del tipo de mascota","Error",1000,1004);
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:56:5: note: declared here
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~
+09:52:40 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:91:5: error: too few arguments to function 'utn_getNumero'
+   91 |     utn_getNumero(&personas[pos].idTipo,"Ingrese el id del tipo de mascota","Error",1000,1004);
+      |     ^~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:56:5: note: declared here
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~
+09:52:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:53:14 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:53:47 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:57:51 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:04:24 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:118:4: error: too few arguments to function 'utn_getNumero'
+  118 |    utn_getNumero(&personas[pos].edad,"Ingrese la edad de la mascota","error",0,20);
+      |    ^~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:56:5: note: declared here
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~
+..\src\calculos.c:122:33: warning: passing argument 1 of 'utn_getCaracter' makes pointer from integer without a cast [-Wint-conversion]
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |                    ~~~~~~~~~~~~~^~~~~~~~~
+      |                                 |
+      |                                 char
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:80:27: note: expected 'char *' but argument is of type 'char'
+   80 | int utn_getCaracter(char* pResultado, char* mensaje,
+      |                     ~~~~~~^~~~~~~~~~
+..\src\calculos.c:122:75: warning: passing argument 3 of 'utn_getCaracter' makes pointer from integer without a cast [-Wint-conversion]
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |                                                                           ^~~
+      |                                                                           |
+      |                                                                           int
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:81:7: note: expected 'char *' but argument is of type 'int'
+   81 | char* mensajeError,char minimo,char maximo, int reintentos);
+      | ~~~~~~^~~~~~~~~~~~
+..\src\calculos.c:122:4: error: too few arguments to function 'utn_getCaracter'
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |    ^~~~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:80:5: note: declared here
+   80 | int utn_getCaracter(char* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~~~
+10:04:35 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:122:33: warning: passing argument 1 of 'utn_getCaracter' makes pointer from integer without a cast [-Wint-conversion]
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |                    ~~~~~~~~~~~~~^~~~~~~~~
+      |                                 |
+      |                                 char
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:80:27: note: expected 'char *' but argument is of type 'char'
+   80 | int utn_getCaracter(char* pResultado, char* mensaje,
+      |                     ~~~~~~^~~~~~~~~~
+..\src\calculos.c:122:75: warning: passing argument 3 of 'utn_getCaracter' makes pointer from integer without a cast [-Wint-conversion]
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |                                                                           ^~~
+      |                                                                           |
+      |                                                                           int
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:81:7: note: expected 'char *' but argument is of type 'int'
+   81 | char* mensajeError,char minimo,char maximo, int reintentos);
+      | ~~~~~~^~~~~~~~~~~~
+..\src\calculos.c:122:4: error: too few arguments to function 'utn_getCaracter'
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n",'n','s',5);
+      |    ^~~~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:80:5: note: declared here
+   80 | int utn_getCaracter(char* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~~~
+10:05:23 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:122:33: warning: passing argument 1 of 'utn_getCaracter' makes pointer from integer without a cast [-Wint-conversion]
+  122 |    utn_getCaracter(personas[pos].vacunado,"Esta vacunada la mascota? s/n","Error",'n','s',5);
+      |                    ~~~~~~~~~~~~~^~~~~~~~~
+      |                                 |
+      |                                 char
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:80:27: note: expected 'char *' but argument is of type 'char'
+   80 | int utn_getCaracter(char* pResultado, char* mensaje,
+      |                     ~~~~~~^~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:05:39 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:22:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'modificar':
+..\src\calculos.c:171:92: warning: passing argument 3 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  171 |   utn_getNumero(&menu,"Que desea modificar?\n 1.Tipo de Mascota\n2.Estado de vacunacion\n",1,2,5);
+      |                                                                                            ^
+      |                                                                                            |
+      |                                                                                            int
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:57:7: note: expected 'char *' but argument is of type 'int'
+   57 | char* mensajeError,int minimo,int maximo, int reintentos);
+      | ~~~~~~^~~~~~~~~~~~
+..\src\calculos.c:171:3: error: too few arguments to function 'utn_getNumero'
+  171 |   utn_getNumero(&menu,"Que desea modificar?\n 1.Tipo de Mascota\n2.Estado de vacunacion\n",1,2,5);
+      |   ^~~~~~~~~~~~~
+In file included from ..\src\calculos.c:15:
+..\src\validaciones.h:56:5: note: declared here
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~
+10:22:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:25:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:54:12: warning: implicit declaration of function 'modificar' [-Wimplicit-function-declaration]
+   54 |         if(modificar(mascotas,TAM,tipos,5)==1){
+      |            ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:25:16 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:29:14 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:29:54 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:49:53 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ordenar':
+..\src\calculos.c:246:50: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  246 |    if(personas[i].idTipo>personas[i+1].idTipo || strcmp (personas[i].nombre>personas[i+1].nombre)>0){
+      |                                                  ^~~~~~
+..\src\calculos.c:246:76: warning: passing argument 1 of 'strcmp' makes pointer from integer without a cast [-Wint-conversion]
+  246 |    if(personas[i].idTipo>personas[i+1].idTipo || strcmp (personas[i].nombre>personas[i+1].nombre)>0){
+      |                                                          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+      |                                                                            |
+      |                                                                            int
+..\src\calculos.c:246:76: note: expected 'const char *' but argument is of type 'int'
+..\src\calculos.c:246:50: warning: too few arguments to built-in function 'strcmp' expecting 2 [-Wbuiltin-declaration-mismatch]
+  246 |    if(personas[i].idTipo>personas[i+1].idTipo || strcmp (personas[i].nombre>personas[i+1].nombre)>0){
+      |                                                  ^~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:50:09 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ordenar':
+..\src\calculos.c:246:50: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  246 |    if(personas[i].idTipo>personas[i+1].idTipo || strcmp (personas[i].nombre,personas[i+1].nombre)>0){
+      |                                                  ^~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:50:22 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:52:39 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:74:37: error: incompatible type for argument 3 of 'listarMascotas'
+   74 |         listarMascotas(mascotas,TAM,tipos,5,colores,5);
+      |                                     ^~~~~
+      |                                     |
+      |                                     eTipo * {aka struct <anonymous> *}
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:27:55: note: expected 'eTipo' {aka 'struct <anonymous>'} but argument is of type 'eTipo *' {aka 'struct <anonymous> *'}
+   27 | void listarMascotas(eMascota personas[],int TAM,eTipo tipo,int tamTipo,eColor color,int tamColor);
+      |                                                 ~~~~~~^~~~
+..\src\Primer Parcial.c:74:45: error: incompatible type for argument 5 of 'listarMascotas'
+   74 |         listarMascotas(mascotas,TAM,tipos,5,colores,5);
+      |                                             ^~~~~~~
+      |                                             |
+      |                                             eColor * {aka struct <anonymous> *}
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:27:79: note: expected 'eColor' {aka 'struct <anonymous>'} but argument is of type 'eColor *' {aka 'struct <anonymous> *'}
+   27 | void listarMascotas(eMascota personas[],int TAM,eTipo tipo,int tamTipo,eColor color,int tamColor);
+      |                                                                        ~~~~~~~^~~~~
+10:53:06 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:53:58 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:54:51 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:55:25 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:55:54 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ordenar':
+..\src\calculos.c:241:11: error: array size missing in 'auxMascota'
+  241 |  eMascota auxMascota[];
+      |           ^~~~~~~~~~
+..\src\calculos.c:251:15: error: assignment to expression with array type
+  251 |     auxMascota=personas[i];
+      |               ^
+..\src\calculos.c:253:19: error: incompatible types when assigning to type 'eMascota' {aka 'struct <anonymous>'} from type 'eMascota *' {aka 'struct <anonymous> *'}
+  253 |     personas[i+1]=auxMascota;
+      |                   ^~~~~~~~~~
+10:55:59 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ordenar':
+..\src\calculos.c:251:15: error: assignment to expression with array type
+  251 |     auxMascota=personas[i];
+      |               ^
+..\src\calculos.c:253:19: error: incompatible types when assigning to type 'eMascota' {aka 'struct <anonymous>'} from type 'eMascota *' {aka 'struct <anonymous> *'}
+  253 |     personas[i+1]=auxMascota;
+      |                   ^~~~~~~~~~
+10:56:46 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+10:58:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:59:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:07:58 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarMascotas':
+..\src\calculos.c:294:31: warning: format '%s' expects argument of type 'char *', but argument 11 has type 'int' [-Wformat=]
+  294 |    printf("|%*d|%*s|%*s|%*s|%*s|%*s||\n",anchoColumnasTexto,personas[i].id,anchoColumnasNumero,personas[i].nombre
+      |                             ~~^
+      |                               |
+      |                               char *
+      |                             %*d
+  295 |    ,anchoColumnasNumero,tipo[j].descripcion,anchoColumnasTexto,color[i].nombreColor
+  296 |    ,anchoColumnasTexto,personas[i].edad,
+      |                        ~~~~~~~~~~~~~~~~
+      |                                   |
+      |                                   int
+..\src\calculos.c:294:35: warning: format '%s' expects argument of type 'char *', but argument 13 has type 'int' [-Wformat=]
+  294 |    printf("|%*d|%*s|%*s|%*s|%*s|%*s||\n",anchoColumnasTexto,personas[i].id,anchoColumnasNumero,personas[i].nombre
+      |                                 ~~^
+      |                                   |
+      |                                   char *
+      |                                 %*d
+......
+  297 |    anchoColumnasTexto,personas[i].vacunado);
+      |                       ~~~~~~~~~~~~~~~~~~~~
+      |                                  |
+      |                                  int
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:08:13 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarMascotas':
+..\src\calculos.c:294:31: warning: format '%s' expects argument of type 'char *', but argument 11 has type 'int' [-Wformat=]
+  294 |    printf("|%*d|%*s|%*s|%*s|%*s|%*c||\n",anchoColumnasTexto,personas[i].id,anchoColumnasNumero,personas[i].nombre
+      |                             ~~^
+      |                               |
+      |                               char *
+      |                             %*d
+  295 |    ,anchoColumnasNumero,tipo[j].descripcion,anchoColumnasTexto,color[i].nombreColor
+  296 |    ,anchoColumnasTexto,personas[i].edad,
+      |                        ~~~~~~~~~~~~~~~~
+      |                                   |
+      |                                   int
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:08:36 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:08:40 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+11:08:51 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:11:06 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:11:58 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:13:19 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:16:13 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+11:24:06 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial

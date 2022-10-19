@@ -1,0 +1,96 @@
+/*
+ ============================================================================
+ Name        : Primer.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "fecha.h"
+#include "tipo.h"
+#include "color.h"
+#include "mascota.h"
+#include "servicio.h"
+#include "trabajo.h"
+#include "validaciones.h"
+
+//#define MAXIMO 3000
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int retorno;
+	int confirmacion;
+	int menu;
+	int retornoUno;
+
+	eMascota mascotas []
+
+	if(inicializar()==1){
+		do
+			{
+				retorno = utn_getNumero(&menu,"1.Alta de mascota\n"
+				"2.Modificar Mascota\n3.Baja Mascota\n4.Listar Mascotas\n5.Listar Tipos\n6.Listar Colores\n7.Listar Servicios\n"
+				"8.Alta Trabajo\n9.Listar Trabajos\n10.Salir","Error",1,10,2);
+				if(retorno == 0){
+					switch(menu){
+
+						case 1:
+							retornoUno=ingresar();
+						break;
+
+						case 2:
+							if(retornoUno==1){
+							//modificarEmpleado(aEmpleados,MAXIMO);
+							}else{
+								printf("Error hay que ingresar mascotas Primero\n");
+							}
+						break;
+
+						case 3:
+							if(retornoUno==1){
+														//modificarEmpleado(aEmpleados,MAXIMO);
+							}else{
+								printf("Error hay que ingresar mascotas Primero\n");
+							}
+						break;
+
+						case 4:
+							if(retornoUno==1){
+								//modificarEmpleado(aEmpleados,MAXIMO);
+							}else{
+								printf("Error hay que ingresar mascotas Primero\n");
+							}
+						break;
+
+						case 5:
+
+						break;
+						case 6:
+
+						break;
+						case 7:
+
+						break;
+
+						case 8:
+
+						break;
+
+						case 9:
+
+						break;
+
+						case 10:
+							utn_getNumero(&confirmacion,"Esta seguro que desea salir?\n1.Si\n2.No\n","Error",1,2,2);
+						break;
+					}
+			}
+
+		}while(confirmacion !=1);
+	}else{
+		printf("Error al inicializar");
+	}
