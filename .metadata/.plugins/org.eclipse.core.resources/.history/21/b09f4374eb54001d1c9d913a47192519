@@ -1,0 +1,106 @@
+/*
+ * calculos.h
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: ayala
+ */
+
+#ifndef CALCULOS_H_
+#define CALCULOS_H_
+
+/**
+ * Inicializa los campos isEmpty de las posiciones del array en 1
+ *
+ * @param personas-> Primer array a "iniciar"
+ * @param len-> Largo de los dos Arrays (en este caso)
+ * @param trabajos-> Segundo array a "iniciar"
+ * @return
+ */
+int inicializar (eMascota personas[],int len,eTrabajo trabajos[]);
+
+/**
+ * HardCodea uno o mas arrays dependiendo de las necesidades del programa
+ *
+ * @param cosas-> Primer Array a cargar(Tipos)
+ * @param cosasC-> Segundo Array a cargar(Colores)
+ * @param cosasS-> Tercer Array a cargar(Servicios)
+ * @param tamUno-> Tamaño del array de Tipos
+ * @param tamDos-> Tamaño del array de Colores
+ * @param tamTres->Tamaño del array de Servicios
+ * @return
+ */
+int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],int tamUno,int tamDos,int tamTres);
+
+/**
+ * Busca la primer posicion libre del array de mascotas,cuando la encuentra corta y retorna 1
+ *
+ * @param personas->Array en el que se va a buscar
+ * @param len-> Largo del Array
+ * @param libre-> Variable en la que se retorna la posicion vacia
+ * @return
+ */
+int buscarLibre(eMascota personas[],int len,int* libre);
+
+/**
+ * Busca la primer posicion libre del array de trabajo,cuando la encuentra corta y retorna 1
+ *
+ * @param trabajo->Array en el que se va a buscar
+ * @param len-> Largo del Array
+ * @param libre-> Variable en la que se retorna la posicion vacia
+ * @return
+ */
+int buscarTrabajoLibre(eTrabajo trabajo[],int len,int* libre);
+
+/**
+ * Busca en el array de mascotas el id ingresado, si lo encuentra retorna 1 y su posicion
+ *
+ * @param personas->Array en el que se va a buscar
+ * @param TAM-> Largo del Array
+ * @param buscar->Id que se va a buscar en el array
+ * @param retornoPos->Variable en la que se retorna la posicion si se encuentra
+ * @return
+ */
+int buscarPorId(eMascota personas[],int TAM,int buscar,int* retornoPos);
+/**
+ * Se usa para cargar una fecha (año,mes y dia) haciendo las comprobaciones
+ *  para que no se exceda de los dias del mes seleccionado usando flags, si todo sale bien
+ *  retorna 1
+ *
+ * @param trabajo-> Array en el que se carga la fecha
+ * @param pos-> Posicion en la que se carga
+ * @return
+ */
+int cargarFecha(eTrabajo* trabajo,int pos);
+
+/**
+ *
+ * @param personas
+ * @param ids
+ * @param tipo
+ * @param color
+ * @param TAM
+ * @param tamTipo
+ * @param tamColor
+ * @return
+ */
+int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int tamTipo,int tamColor);
+
+int modificar(eMascota personas[],int TAM,eTipo tipo[],int tamTipos);
+
+int baja(eMascota personas[],int TAM);
+
+int ordenar(eMascota personas[],int TAM);
+
+void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor);
+
+void listarTipos (eTipo tipo[],int tamTipo);
+
+void listarColores(eColor color[],int tamColor);
+
+void listarServicios(eServicio servicio[],int tamServicio);
+
+int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamTrabajo,eServicio servicios[],int tamServicios,
+eColor color[],int tamColor,eTipo tipo[],int tamTipo,int* contIdTrabajo);
+
+void listarTrabajos(eTrabajo* trabajo,int TAM,eMascota mascota[],eServicio servicio[],int tamServicio);
+#endif /* CALCULOS_H_ */

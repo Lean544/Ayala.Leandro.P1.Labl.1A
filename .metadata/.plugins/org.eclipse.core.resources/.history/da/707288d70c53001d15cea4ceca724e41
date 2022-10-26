@@ -1,0 +1,43 @@
+/*
+ * calculos.h
+ *
+ *  Created on: 19 oct. 2022
+ *      Author: ayala
+ */
+
+#ifndef CALCULOS_H_
+#define CALCULOS_H_
+
+int inicializar (eMascota personas[],int len,eTrabajo trabajos[]);
+
+int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],int tamUno,int tamDos,int tamTres);
+
+int buscarLibre(eMascota personas[],int len,int* libre);
+
+int buscarTrabajoLibre(eTrabajo trabajo[],int len,int* libre);
+
+int buscarPorId(eMascota personas[],int TAM,int buscar,int* retornoPos);
+
+int cargarFecha(eTrabajo* trabajo,int pos);
+
+int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int tamTipo,int tamColor);
+
+int modificar(eMascota personas[],int TAM,eTipo tipo[],int tamTipos);
+
+int baja(eMascota personas[],int TAM);
+
+int ordenar(eMascota personas[],int TAM);
+
+void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor);
+
+void listarTipos (eTipo tipo[],int tamTipo);
+
+void listarColores(eColor color[],int tamColor);
+
+void listarServicios(eServicio servicio[],int tamServicio);
+
+int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamTrabajo,eServicio servicios[],int tamServicios,
+		eColor color[],int tamColor,eTipo tipo[],int tamTipo,int* contIdTrabajo);
+
+void listarTrabajos(eTrabajo* trabajo,int TAM,eMascota mascota[],eServicio servicio[],int tamServicio);
+#endif /* CALCULOS_H_ */
