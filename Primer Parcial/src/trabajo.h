@@ -13,6 +13,7 @@ typedef struct{
 	int idMascota;
 	int idServicio;
 	eFecha fecha;
+	int isEmpty;
 }eTrabajo;
 
 #endif /* TRABAJO_H_ */

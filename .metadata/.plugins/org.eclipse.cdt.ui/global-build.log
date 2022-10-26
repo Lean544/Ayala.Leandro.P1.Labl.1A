@@ -707,3 +707,325 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
 gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
 Info: Nothing to build for Primer Parcial
+14:38:02 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+14:38:55 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:39:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:40:09 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:40:24 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:40:33 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:40:55 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:46:02 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:46:06 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+14:57:40 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+16:00:38 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:36:13: warning: variable 'pTrabajos' set but not used [-Wunused-but-set-variable]
+   36 |  eTrabajo * pTrabajos;
+      |             ^~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+16:48:16 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+16:55:26 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+17:28:22 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargarFecha':
+..\src\calculos.c:114:64: warning: comparison between pointer and integer
+  114 |   if(((trabajo+pos)->fecha.mes==2 && &(trabajo+pos)->fecha.dia <=28) ||
+      |                                                                ^~
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:402:17: error: invalid type argument of unary '*' (have 'int')
+  402 |  utn_getNumero(&*(trabajo+pos)->idServicio,"¿Que servicio desea hacerle?\n20000.Corte:450$\n"
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+17:28:38 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:402:17: error: invalid type argument of unary '*' (have 'int')
+  402 |  utn_getNumero(&*(trabajo+pos)->idServicio,"¿Que servicio desea hacerle?\n20000.Corte:450$\n"
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+17:28:57 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+17:31:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:406:17: error: incompatible type for argument 1 of 'cargarFecha'
+  406 |  if(cargarFecha(*trabajo,pos)==1){
+      |                 ^~~~~~~~
+      |                 |
+      |                 eTrabajo {aka struct <anonymous>}
+..\src\calculos.c:91:27: note: expected 'eTrabajo *' {aka 'struct <anonymous> *'} but argument is of type 'eTrabajo' {aka 'struct <anonymous>'}
+   91 | int cargarFecha(eTrabajo* trabajo,int pos){
+      |                 ~~~~~~~~~~^~~~~~~
+..\src\calculos.c:384:6: warning: variable 'flagFecha' set but not used [-Wunused-but-set-variable]
+  384 |  int flagFecha=0;
+      |      ^~~~~~~~~
+17:31:25 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:384:6: warning: variable 'flagFecha' set but not used [-Wunused-but-set-variable]
+  384 |  int flagFecha=0;
+      |      ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+17:32:23 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+17:34:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+17:50:19 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:30:6: warning: unused variable 'idTrabajos' [-Wunused-variable]
+   30 |  int idTrabajos=0;
+      |      ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarTrabajos':
+..\src\calculos.c:429:46: error: 'servicio' undeclared (first use in this function); did you mean 'eServicio'?
+  429 |   printf("|%*d|%*s|%*f\n",anchoColumnasTexto,servicio[i].id,anchoColumnasNumero,servicio[i].descripcion,anchoColumnasNumero,servicio[i].precio);
+      |                                              ^~~~~~~~
+      |                                              eServicio
+..\src\calculos.c:429:46: note: each undeclared identifier is reported only once for each function it appears in
+17:50:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarTrabajos':
+..\src\calculos.c:425:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+  425 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+..\src\calculos.c:424:6: warning: unused variable 'anchoColumnasTexto' [-Wunused-variable]
+  424 |  int anchoColumnasTexto=-20;
+      |      ^~~~~~~~~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+18:08:28 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:30:6: warning: unused variable 'idTrabajos' [-Wunused-variable]
+   30 |  int idTrabajos=0;
+      |      ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarTrabajos':
+..\src\calculos.c:443:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+  443 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+..\src\calculos.c:442:6: warning: unused variable 'anchoColumnasTexto' [-Wunused-variable]
+  442 |  int anchoColumnasTexto=-20;
+      |      ^~~~~~~~~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+16:55:57 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:30:6: warning: unused variable 'idTrabajos' [-Wunused-variable]
+   30 |  int idTrabajos=0;
+      |      ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+16:57:12 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+17:13:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargarFecha':
+..\src\calculos.c:139:63: error: called object is not a function or function pointer
+  139 |   ((trabajo+pos)->fecha.mes>=7 && (trabajo+pos)->fecha.mes<=8 && (trabajo+pos)->fecha.dia <31)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17:14:08 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargarFecha':
+..\src\calculos.c:139:65: error: called object is not a function or function pointer
+  139 |   (((trabajo+pos)->fecha.mes>=7 && (trabajo+pos)->fecha.mes<=8) && (trabajo+pos)->fecha.dia <31)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17:14:31 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargarFecha':
+..\src\calculos.c:139:63: error: called object is not a function or function pointer
+  139 |   ((trabajo+pos)->fecha.mes>=7 && (trabajo+pos)->fecha.mes<=8 && (trabajo+pos)->fecha.dia <31)
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+17:15:11 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+17:17:15 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+17:18:07 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'listarTrabajos':
+..\src\calculos.c:472:11: warning: too many arguments for format [-Wformat-extra-args]
+  472 |    printf("|%*d|%*s|%*s|%d/%d/%d|\n",anchoColumnasNumero,(trabajo+i)->id,anchoColumnasTexto,mascota[j].nombre
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+17:18:19 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+00:49:38 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:49:42 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+00:51:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+00:52:56 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+00:54:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:54:23 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+00:55:33 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+00:57:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:00:36 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:03:44 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:05:53 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:07:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:07:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+01:12:23 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:15:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+01:18:08 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+02:15:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+02:25:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial

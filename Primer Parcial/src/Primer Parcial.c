@@ -27,13 +27,17 @@ int main(void) {
 	char menu;
 	int retornoUno;
 	int idMascotas=0;
+	int idTrabajos=0;
 
 	eMascota mascotas [TAM];
 	eTipo tipos [5];
 	eColor colores[5];
 	eServicio servicios[3];
+	eTrabajo trabajos[TAM];
+	eTrabajo * pTrabajos;
+	pTrabajos=trabajos;
 
-	if(inicializar(mascotas,TAM)==1 && cargaForzada(tipos,colores,servicios,5,5,3)==1){
+	if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,5,5,3)==1){
 		do
 			{
 				retorno = utn_getCaracter(&menu,"Escriba la Respuesta en Mayuscula Por favor\n\nA.Alta de mascota\n"
@@ -72,28 +76,36 @@ int main(void) {
 						case 'D':
 							if(retornoUno==1){
 								listarMascotas(mascotas,TAM,tipos,5,colores,5);
-								//void listarMascotas(eMascota personas[],int TAM,eTipo tipo,int tamTipo,eColor color,int tamColor)
 							}else{
 								printf("Error hay que ingresar mascotas Primero\n");
 							}
 						break;
 
 						case 'E':
+							listarTipos(tipos,5);
 
 						break;
 						case 'F':
-
+							listarColores(colores,5);
 						break;
 						case 'G':
-
+							listarServicios(servicios,3);
 						break;
 
 						case 'H':
+							if(retornoUno==1){
+								if(ingresarTrabajo(mascotas,TAM,pTrabajos,TAM,servicios,3,colores,5,tipos,5,&idTrabajos)==1){
+									printf("Turno Reservado!\n");
+								}
+							}else{
+								printf("Error hay que ingresar mascotas Primero\n");
+							}
 
 						break;
 
 						case 'I':
-
+							//void listarTrabajos(eTrabajo* trabajo,int TAM,eMascota mascota[],eServicio servicio[],int tamServicio)
+							listarTrabajos(pTrabajos,TAM,mascotas,servicios,3);
 						break;
 
 						case 'J':
