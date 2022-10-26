@@ -6,6 +6,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include "cliente.h"
 #include "string.h"
 #include "fecha.h"
 #include "tipo.h"
@@ -14,31 +15,58 @@
 #include "servicio.h"
 #include "trabajo.h"
 #include "validaciones.h"
+#include "listar.h"
 
-
-int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],int tamUno,int tamDos,int tamTres){
+int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],eTrabajo trabajo[],eMascota mascota[],int tamUno,int tamDos,int tamTres,int tamCuatro,int tamCinco){
 	int retorno=0;
 	int retornoUno=0;
 	int retornoDos=0;
 	int retornoTres=0;
+	int retornoCuatro=0;
+	int i;
+	int cont=0;
 	eTipo auxTipos[]={{1000,"Ave"},{1001,"Perro"},{1002,"Roedor"},{1003,"Gato"},{1004,"Pez"}};
 	eColor auxColores[]={{5000,"Negro"},{5001,"Blanco"},{5002,"Rojo"},{5003,"Gris"},{5004,"Azul"}};
 	eServicio auxServicios[]={{20000,"Corte",450},{20001,"Desparasitado",800},{20002,"Castrado",600}};
+	eCliente auxClientes[]={{200,"Veronica","Mujer"},{201,"Cristian","Hombre"},{202,"Rocio","Mujer"},{203,"Julio","Hombre"},{204,"Mara","Mujer"}};
+	eTrabajo auxTrabajos[]={{125,140,20001,{2023,7,15},0},{126,141,20002,{2024,1,1},0},{127,142,20000,{2022,10,8},0}};
+	eMascota auxMascotas[]={{140,"Maximo",1001,5002,200,15,'n',0},{141,"Adolfin",1003,5003,201,10,'s',0},{142,"Eugenio",1004,5000,202,9,'n',0}};
 
-	for(int i=0;i<tamUno;i++){
+	for(i=0;i<tamUno;i++){
 		cosas[i]=auxTipos[i];
 		retornoUno=1;
 	}
-	for(int y=0;y<tamDos;y++){
-		cosasC[y]=auxColores[y];
+	for(i=0;i<tamDos;i++){
+		cosasC[i]=auxColores[i];
 		retornoDos=1;
 	}
-	for (int x=0;x<tamTres;x++){
-		cosasS[x]=auxServicios[x];
+	for (i=0;i<tamTres;i++){
+		cosasS[i]=auxServicios[i];
 		retornoTres=1;
 	}
+	for(i=0;i<tamCuatro;i++){
+		cosasCl[i]=auxClientes[i];
+		retornoCuatro=1;
+	}
+	for(i=0;i<tamCinco;i++){
+		if(cont<3){
+			trabajo[i]=auxTrabajos[cont];
+			cont=cont+1;
+		}else{
+			break;
+		}
+	}
+	cont=0;
+	for(i=0;i<tamCinco;i++){
+		if(cont<=3){
+			mascota[i]=auxMascotas[cont];
+			cont=cont+1;
+		}else{
+			break;
+		}
+	}
 
-	if(retornoUno==1 && retornoDos ==1 && retornoTres ==1){
+	if(retornoUno==1 && retornoDos ==1 && retornoTres ==1 && retornoCuatro==1){
 		retorno=1;
 	}
 
@@ -151,11 +179,12 @@ int cargarFecha(eTrabajo* trabajo,int pos){
 	return retorno;
 }
 
-int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int tamTipo,int tamColor){
+int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente){
 	int retorno=0;
 	int pos;
 	int i;
 	int flagComprobar=0;
+	int flagCliente;
 
 	if(personas!=NULL && tipo!=NULL && color !=NULL && *ids > -1 && TAM > 0){
 		if(buscarLibre(personas,TAM,&pos)==1){
@@ -163,9 +192,7 @@ int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int 
 			utn_getCadena(personas[pos].nombre,"Ingrese El nombre de la mascota","error",20,5);
 
 			printf("Lista de Tipos:\n");
-			for(i=0;i<tamTipo;i++){
-				printf("Id->%d, Tipo:%s\n",tipo[i].id,tipo[i].descripcion);
-			}
+			listarTipos(tipo,tamTipo);
 
 			do{
 				utn_getNumero(&personas[pos].idTipo,"Ingrese el id del tipo de mascota","Error",1000,1004,5);
@@ -177,9 +204,7 @@ int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int 
 			}while(flagComprobar==0);
 
 			printf("Lista de Colores:\n");
-			for(i=0;i<tamColor;i++){
-				printf("Id->%d, Color:%s\n",color[i].id,color[i].nombreColor);
-			}
+			listarColores(color,tamColor);
 
 			do{
 				flagComprobar=0;
@@ -204,6 +229,20 @@ int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int 
 					printf("Error Respuesta Invalida\n");
 				}
 			}while(flagComprobar==0);
+
+			do{
+				printf("Lista de clientes:\n");
+				listarClientes(cliente,tamCliente);
+
+				utn_getNumero(&personas[pos].idCliente,"Ingrese el id del cliente","Error",200,204,6);
+
+				for(i=0;i<tamCliente;i++){
+					if(personas[pos].idCliente==cliente[i].id){
+						flagCliente=1;
+						break;
+					}
+				}
+			}while(flagCliente !=1);
 
 			*ids= *ids+1;
 
@@ -323,86 +362,8 @@ int ordenar(eMascota personas[],int TAM){
 	return retorno;
 }
 
-void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor){
-
-	int anchoColumnasTexto=-20;
-	int anchoColumnasNumero=-20;
-	int i;
-	int j;
-	int x;
-
-
-	ordenar(personas,TAM);
-
-	printf("|%*s|%*s|%*s|%*s|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Nombre",anchoColumnasNumero,
-	"Tipo",anchoColumnasTexto,"Color",anchoColumnasTexto,"Edad",
-	anchoColumnasTexto,"Estado Vacunación");
-
-	for(i=0;i<TAM;i++){
-		if(personas[i].isEmpty==0){
-
-			for(j=0;j<tamTipo;j++){
-				if(personas[i].idTipo==tipo[j].id){
-						break;
-				}
-			}
-
-			for(x=0;x<tamColor;x++){
-				if(personas[i].idColor==color[x].id){
-
-					break;
-				}
-			}
-
-			printf("\n----------------------------------------------------------------------------------------------------\n");
-			printf("|%*d|%*s|%*s|%*s|%*d|%*c|\n",anchoColumnasTexto,personas[i].id,anchoColumnasNumero,personas[i].nombre
-			,anchoColumnasNumero,tipo[j].descripcion,anchoColumnasTexto,color[x].nombreColor
-			,anchoColumnasTexto,personas[i].edad,
-			anchoColumnasTexto,personas[i].vacunado);
-		}
-	}
-
-}
-
-void listarTipos (eTipo tipo[],int tamTipo){
-
-	int anchoColumnasTexto=-20;
-	int anchoColumnasNumero=-20;
-
-	printf("|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Tipo");
-	for(int i=0;i<tamTipo;i++){
-		printf("|%*d|%*s|\n",anchoColumnasTexto,tipo[i].id,anchoColumnasNumero,tipo[i].descripcion);
-		printf("-------------------------------------------\n");
-	}
-
-}
-
-void listarColores(eColor color[],int tamColor){
-	int anchoColumnasTexto=-20;
-	int anchoColumnasNumero=-20;
-
-	printf("|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Color");
-	for(int i=0;i<tamColor;i++){
-		printf("|%*d|%*s|\n",anchoColumnasTexto,color[i].id,anchoColumnasNumero,color[i].nombreColor);
-		printf("-------------------------------------------\n");
-	}
-
-
-}
-
-void listarServicios(eServicio servicio[],int tamServicio){
-	int anchoColumnasTexto=-20;
-	int anchoColumnasNumero=-20;
-
-	printf("|%*s|%*s|%*s\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Servicio",anchoColumnasNumero,"Precio");
-	for(int i=0;i<tamServicio;i++){
-		printf("|%*d|%*s|%*f\n",anchoColumnasTexto,servicio[i].id,anchoColumnasNumero,servicio[i].descripcion,anchoColumnasNumero,servicio[i].precio);
-		printf("-------------------------------------------\n");
-	}
-}
-
 int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamTrabajo,eServicio servicios[],int tamServicios,
-		eColor color[],int tamColor,eTipo tipo[],int tamTipo,int* contIdTrabajo){
+		eColor color[],int tamColor,eTipo tipo[],int tamTipo,eCliente clientes[],int tamClientes,int* contIdTrabajo){
 	int retorno=0;
 	int flagId=0;
 	int flagFecha=0;
@@ -413,7 +374,7 @@ int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamT
 
 	if(buscarTrabajoLibre(trabajo,tamTrabajo,&posTrabajo)==1){
 		printf("Mascotas Ingresadas:\n");
-		listarMascotas(sujetos,tamSujetos,tipo,tamTipo,color,tamColor);
+		listarMascotas(sujetos,tamSujetos,tipo,tamTipo,color,tamColor,clientes,tamClientes);
 
 		do{
 			utn_getNumero(&buscar,"Ingrese la id de la mascota","Error",1,tamSujetos,5);
@@ -455,32 +416,4 @@ int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamT
 }
 
 
-void listarTrabajos(eTrabajo* trabajo,int TAM,eMascota mascota[],eServicio servicio[],int tamServicio){
-	int anchoColumnasTexto=-20;
-	int anchoColumnasNumero=-20;
-	int i;
-	int j;
-	int x;
-
-	printf("|%*s|%*s|%*s|%*s\n",anchoColumnasNumero,"Id",anchoColumnasTexto,"Mascota",anchoColumnasTexto,"Servicio",anchoColumnasTexto,"Fecha");
-	for(i=0;i<TAM;i++){
-		if((trabajo+i)->isEmpty==0){
-			for(j=0;j<TAM;j++){
-				if((trabajo+i)->idMascota==mascota[j].id){
-					break;
-				}
-			}
-
-			for(x=0;x<tamServicio;x++){
-				if((trabajo+i)->idServicio==servicio[x].id){
-					break;
-				}
-			}
-
-			printf("\n----------------------------------------------------------------------------------------------------\n");
-			printf("|%*d|%*s|%*s|%d/%d/%d|\n",anchoColumnasNumero,(trabajo+i)->id,anchoColumnasTexto,mascota[j].nombre
-			,anchoColumnasTexto,servicio[x].descripcion,(trabajo+i)->fecha.anio,(trabajo+i)->fecha.mes,(trabajo+i)->fecha.dia);
-		}
-	}
-
-}
+//el array de clientes se hardcodea

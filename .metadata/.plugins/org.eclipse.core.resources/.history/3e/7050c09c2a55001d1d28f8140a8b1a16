@@ -1,0 +1,75 @@
+/*
+ * listar.c
+ *
+ *  Created on: 26 oct. 2022
+ *      Author: ayala
+ */
+
+
+void listarTipos (eTipo tipo[],int tamTipo){
+
+	int anchoColumnasTexto=-20;
+	int anchoColumnasNumero=-20;
+
+	printf("|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Tipo");
+	for(int i=0;i<tamTipo;i++){
+		printf("|%*d|%*s|\n",anchoColumnasTexto,tipo[i].id,anchoColumnasNumero,tipo[i].descripcion);
+		printf("-------------------------------------------\n");
+	}
+
+}
+
+
+void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor){
+
+	int anchoColumnasTexto=-20;
+	int anchoColumnasNumero=-20;
+	int i;
+	int j;
+	int x;
+
+
+	ordenar(personas,TAM);
+
+	printf("|%*s|%*s|%*s|%*s|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Nombre",anchoColumnasNumero,
+	"Tipo",anchoColumnasTexto,"Color",anchoColumnasTexto,"Edad",
+	anchoColumnasTexto,"Estado Vacunación");
+
+	for(i=0;i<TAM;i++){
+		if(personas[i].isEmpty==0){
+
+			for(j=0;j<tamTipo;j++){
+				if(personas[i].idTipo==tipo[j].id){
+						break;
+				}
+			}
+
+			for(x=0;x<tamColor;x++){
+				if(personas[i].idColor==color[x].id){
+
+					break;
+				}
+			}
+
+			printf("\n----------------------------------------------------------------------------------------------------\n");
+			printf("|%*d|%*s|%*s|%*s|%*d|%*c|\n",anchoColumnasTexto,personas[i].id,anchoColumnasNumero,personas[i].nombre
+			,anchoColumnasNumero,tipo[j].descripcion,anchoColumnasTexto,color[x].nombreColor
+			,anchoColumnasTexto,personas[i].edad,
+			anchoColumnasTexto,personas[i].vacunado);
+		}
+	}
+
+}
+
+void listarColores(eColor color[],int tamColor){
+	int anchoColumnasTexto=-20;
+	int anchoColumnasNumero=-20;
+
+	printf("|%*s|%*s|\n",anchoColumnasTexto,"Id",anchoColumnasTexto,"Color");
+	for(int i=0;i<tamColor;i++){
+		printf("|%*d|%*s|\n",anchoColumnasTexto,color[i].id,anchoColumnasNumero,color[i].nombreColor);
+		printf("-------------------------------------------\n");
+	}
+
+
+}

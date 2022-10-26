@@ -13,6 +13,7 @@ typedef struct{
 	char nombre[20];
 	int idTipo;
 	int idColor;
+	int idCliente;
 	int edad;
 	char vacunado;
 	int isEmpty;

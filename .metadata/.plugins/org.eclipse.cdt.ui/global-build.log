@@ -1029,3 +1029,996 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
 gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\validaciones.o" 
 Info: Nothing to build for Primer Parcial
+09:25:42 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:36:2: error: unknown type name 'eCliente'
+   36 |  eCliente clientes[5];
+      |  ^~~~~~~~
+..\src\Primer Parcial.c:41:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   41 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:51:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   51 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:26:25 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:36:2: error: unknown type name 'eCliente'
+   36 |  eCliente clientes[5];
+      |  ^~~~~~~~
+..\src\Primer Parcial.c:41:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   41 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:51:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   51 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:27:07 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:27:44 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:28:03 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:29:07 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:29:27 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c:19:76: error: conflicting types for 'cosasC'
+   19 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro){
+      |                                                                   ~~~~~~~~~^~~~~~~~
+..\src\calculos.c:19:39: note: previous definition of 'cosasC' was here
+   19 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasC[],int tamUno,int tamDos,int tamTres,int tamCuatro){
+      |                                ~~~~~~~^~~~~~~~
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:35:13: error: incompatible types when assigning to type 'eCliente' {aka 'struct <anonymous>'} from type 'eColor' {aka 'struct <anonymous>'}
+   35 |   cosasC[i]=auxColores[i];
+      |             ^~~~~~~~~~
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:173:4: warning: implicit declaration of function 'listarTipos' [-Wimplicit-function-declaration]
+  173 |    listarTipos(tipo,tamTipo);
+      |    ^~~~~~~~~~~
+..\src\calculos.c:185:4: warning: implicit declaration of function 'listarColores' [-Wimplicit-function-declaration]
+  185 |    listarColores(color,tamColor);
+      |    ^~~~~~~~~~~~~
+..\src\calculos.c:213:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  213 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+..\src\calculos.c: At top level:
+..\src\calculos.c:384:6: warning: conflicting types for 'listarTipos'
+  384 | void listarTipos (eTipo tipo[],int tamTipo){
+      |      ^~~~~~~~~~~
+..\src\calculos.c:173:4: note: previous implicit declaration of 'listarTipos' was here
+  173 |    listarTipos(tipo,tamTipo);
+      |    ^~~~~~~~~~~
+..\src\calculos.c:397:6: warning: conflicting types for 'listarColores'
+  397 | void listarColores(eColor color[],int tamColor){
+      |      ^~~~~~~~~~~~~
+..\src\calculos.c:185:4: note: previous implicit declaration of 'listarColores' was here
+  185 |    listarColores(color,tamColor);
+      |    ^~~~~~~~~~~~~
+..\src\calculos.c:410:6: warning: conflicting types for 'listarClientes'
+  410 | void listarClientes(eCliente cliente[],int tamCliente){
+      |      ^~~~~~~~~~~~~~
+..\src\calculos.c:213:5: note: previous implicit declaration of 'listarClientes' was here
+  213 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+..\src\calculos.c: In function 'listarClientes':
+..\src\calculos.c:412:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+  412 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+09:30:25 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:32:67: error: unknown type name 'eCliente'
+   32 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:87:69: error: unknown type name 'eCliente'
+   87 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:31:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:31:37 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:173:4: warning: implicit declaration of function 'listarTipos' [-Wimplicit-function-declaration]
+  173 |    listarTipos(tipo,tamTipo);
+      |    ^~~~~~~~~~~
+..\src\calculos.c:185:4: warning: implicit declaration of function 'listarColores' [-Wimplicit-function-declaration]
+  185 |    listarColores(color,tamColor);
+      |    ^~~~~~~~~~~~~
+..\src\calculos.c:213:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  213 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+..\src\calculos.c: At top level:
+..\src\calculos.c:384:6: warning: conflicting types for 'listarTipos'
+  384 | void listarTipos (eTipo tipo[],int tamTipo){
+      |      ^~~~~~~~~~~
+..\src\calculos.c:173:4: note: previous implicit declaration of 'listarTipos' was here
+  173 |    listarTipos(tipo,tamTipo);
+      |    ^~~~~~~~~~~
+..\src\calculos.c:397:6: warning: conflicting types for 'listarColores'
+  397 | void listarColores(eColor color[],int tamColor){
+      |      ^~~~~~~~~~~~~
+..\src\calculos.c:185:4: note: previous implicit declaration of 'listarColores' was here
+  185 |    listarColores(color,tamColor);
+      |    ^~~~~~~~~~~~~
+..\src\calculos.c:410:6: warning: conflicting types for 'listarClientes'
+  410 | void listarClientes(eCliente cliente[],int tamCliente){
+      |      ^~~~~~~~~~~~~~
+..\src\calculos.c:213:5: note: previous implicit declaration of 'listarClientes' was here
+  213 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+..\src\calculos.c: In function 'listarClientes':
+..\src\calculos.c:412:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+  412 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:35:55 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:213:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  213 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:42:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   42 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:52:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   52 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+..\src\Primer Parcial.c:81:9: warning: implicit declaration of function 'listarMascotas' [-Wimplicit-function-declaration]
+   81 |         listarMascotas(mascotas,TAM,tipos,5,colores,5);
+      |         ^~~~~~~~~~~~~~
+..\src\Primer Parcial.c:88:8: warning: implicit declaration of function 'listarTipos' [-Wimplicit-function-declaration]
+   88 |        listarTipos(tipos,5);
+      |        ^~~~~~~~~~~
+..\src\Primer Parcial.c:92:8: warning: implicit declaration of function 'listarColores' [-Wimplicit-function-declaration]
+   92 |        listarColores(colores,5);
+      |        ^~~~~~~~~~~~~
+..\src\Primer Parcial.c:95:8: warning: implicit declaration of function 'listarServicios' [-Wimplicit-function-declaration]
+   95 |        listarServicios(servicios,3);
+      |        ^~~~~~~~~~~~~~~
+..\src\Primer Parcial.c:111:8: warning: implicit declaration of function 'listarTrabajos' [-Wimplicit-function-declaration]
+  111 |        listarTrabajos(pTrabajos,TAM,mascotas,servicios,3);
+      |        ^~~~~~~~~~~~~~
+09:36:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarMascotas':
+..\src\listar.c:42:2: warning: implicit declaration of function 'ordenar' [-Wimplicit-function-declaration]
+   42 |  ordenar(personas,TAM);
+      |  ^~~~~~~
+..\src\listar.c: In function 'listarClientes':
+..\src\listar.c:89:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+   89 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:36:59 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:214:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  214 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:37:44 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:88:69: error: unknown type name 'eCliente'
+   88 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:38:10 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:39:08 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: error: expected expression before ')' token
+   53 |        if(){
+      |           ^
+..\src\Primer Parcial.c:31:6: warning: unused variable 'idMascotas' [-Wunused-variable]
+   31 |  int idMascotas=0;
+      |      ^~~~~~~~~~
+09:39:12 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:39:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:39:39 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:40:05 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:33:67: error: unknown type name 'eCliente'
+   33 | int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],int tamUno,int tamDos,int tamTres,int tamCuatro);
+      |                                                                   ^~~~~~~~
+In file included from ..\src\Primer Parcial.c:20:
+..\src\calculos.h:89:69: error: unknown type name 'eCliente'
+   89 | int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
+      |                                                                     ^~~~~~~~
+..\src\Primer Parcial.c: In function 'main':
+..\src\Primer Parcial.c:43:46: warning: implicit declaration of function 'cargaForzada' [-Wimplicit-function-declaration]
+   43 |  if(inicializar(mascotas,TAM,trabajos)==1 && cargaForzada(tipos,colores,servicios,clientes,5,5,3,5)==1){
+      |                                              ^~~~~~~~~~~~
+..\src\Primer Parcial.c:53:11: warning: implicit declaration of function 'cargar' [-Wimplicit-function-declaration]
+   53 |        if(cargar(mascotas,&idMascotas,tipos,colores,clientes,TAM,5,5,5)==1){
+      |           ^~~~~~
+09:40:17 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:41:41 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarMascotas':
+..\src\listar.c:42:2: warning: implicit declaration of function 'ordenar' [-Wimplicit-function-declaration]
+   42 |  ordenar(personas,TAM);
+      |  ^~~~~~~
+..\src\listar.c: In function 'listarClientes':
+..\src\listar.c:89:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+   89 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:214:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  214 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+09:42:56 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarClientes':
+..\src\listar.c:90:6: warning: unused variable 'anchoColumnasNumero' [-Wunused-variable]
+   90 |  int anchoColumnasNumero=-20;
+      |      ^~~~~~~~~~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+09:43:12 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+09:47:52 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:48:45 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:49:25 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:50:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+09:50:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+09:51:13 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:51:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarMascotas':
+..\src\listar.c:77:67: warning: 'y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   77 |    anchoColumnasTexto,cliente[y].nombre,anchoColumnasTexto,cliente[y].sexo);
+      |                                                                   ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:53:14 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+09:53:53 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarMascotas':
+..\src\listar.c:41:6: warning: unused variable 'y' [-Wunused-variable]
+   41 |  int y;
+      |      ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+09:55:44 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargar':
+..\src\calculos.c:214:5: warning: implicit declaration of function 'listarClientes' [-Wimplicit-function-declaration]
+  214 |     listarClientes(cliente,tamCliente);
+      |     ^~~~~~~~~~~~~~
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:356:3: error: too few arguments to function 'listarMascotas'
+  356 |   listarMascotas(sujetos,tamSujetos,tipo,tamTipo,color,tamColor);
+      |   ^~~~~~~~~~~~~~
+In file included from ..\src\calculos.c:18:
+..\src\listar.h:22:6: note: declared here
+   22 | void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor,eCliente cliente[],int tamCliente);
+      |      ^~~~~~~~~~~~~~
+09:57:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'ingresarTrabajo':
+..\src\calculos.c:356:3: error: too few arguments to function 'listarMascotas'
+  356 |   listarMascotas(sujetos,tamSujetos,tipo,tamTipo,color,tamColor);
+      |   ^~~~~~~~~~~~~~
+In file included from ..\src\calculos.c:18:
+..\src\listar.h:22:6: note: declared here
+   22 | void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor,eCliente cliente[],int tamCliente);
+      |      ^~~~~~~~~~~~~~
+09:59:23 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:09:18 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listadosExtra':
+..\src\listar.c:159:14: warning: passing argument 3 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  159 |    "7.Salir",1,7,5);
+      |              ^
+      |              |
+      |              int
+In file included from ..\src\listar.c:16:
+..\src\validaciones.h:57:7: note: expected 'char *' but argument is of type 'int'
+   57 | char* mensajeError,int minimo,int maximo, int reintentos);
+      | ~~~~~~^~~~~~~~~~~~
+..\src\listar.c:156:11: error: too few arguments to function 'utn_getNumero'
+  156 |   retorno=utn_getNumero(&menu,"Que desea listar?\n1.Seleccionar un color y mostrar las mascotas de ese color\n"
+      |           ^~~~~~~~~~~~~
+In file included from ..\src\listar.c:16:
+..\src\validaciones.h:56:5: note: declared here
+   56 | int utn_getNumero(int* pResultado, char* mensaje,
+      |     ^~~~~~~~~~~~~
+10:09:39 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:16:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:28:30 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarPorcentajeVacunados':
+..\src\listar.c:212:57: warning: spurious trailing '%' in format [-Wformat=]
+  212 |  printf("El promedio de las mascotas vacunadas es de %f %",promedio);
+      |                                                         ^
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:29:38 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:30:16 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:31:24 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarPorcentajeVacunados':
+..\src\listar.c:253:1: error: expected declaration or statement at end of input
+  253 | }
+      | ^
+At top level:
+..\src\listar.c:215:6: warning: 'listadosExtra' defined but not used [-Wunused-function]
+  215 | void listadosExtra(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor,eCliente cliente[],int tamCliente){
+      |      ^~~~~~~~~~~~~
+10:31:48 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarPorcentajeVacunados':
+..\src\listar.c:253:1: error: expected declaration or statement at end of input
+  253 | }
+      | ^
+At top level:
+..\src\listar.c:215:6: warning: 'listadosExtra' defined but not used [-Wunused-function]
+  215 | void listadosExtra(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor,eCliente cliente[],int tamCliente){
+      |      ^~~~~~~~~~~~~
+10:32:00 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:33:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:39:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:41:27 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:42:21 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:43:41 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:51:39 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listadosExtra':
+..\src\listar.c:487:5: error: a label can only be part of a statement and a declaration is not a statement
+  487 |     void listarPorTipo(personas,TAM,tipo,tamTipo,color,tamColor,cliente,tamCliente);
+      |     ^~~~
+..\src\listar.c:487:5: warning: parameter names (without types) in function declaration
+10:51:46 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:51:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:51:50 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+10:57:40 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:57:55 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+10:58:49 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:05:53 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarColorMasCant':
+..\src\listar.c:528:11: error: switch quantity not an integer
+  528 |    switch(personas){
+      |           ^~~~~~~~
+..\src\listar.c:529:5: error: case label does not reduce to an integer constant
+  529 |     case personas[i].idColor==5000 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:533:5: error: case label does not reduce to an integer constant
+  533 |     case personas[i].idColor==5001 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:537:5: error: case label does not reduce to an integer constant
+  537 |     case personas[i].idColor==5002 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:541:5: error: case label does not reduce to an integer constant
+  541 |     case personas[i].idColor==5003 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:545:5: error: case label does not reduce to an integer constant
+  545 |     case personas[i].idColor==5004 && personas[i].isEmpty==0:
+      |     ^~~~
+11:06:07 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarColorMasCant':
+..\src\listar.c:528:11: error: switch quantity not an integer
+  528 |    switch(personas){
+      |           ^~~~~~~~
+..\src\listar.c:529:5: error: case label does not reduce to an integer constant
+  529 |     case (personas[i].idColor==5000 && personas[i].isEmpty==0):
+      |     ^~~~
+..\src\listar.c:533:5: error: case label does not reduce to an integer constant
+  533 |     case personas[i].idColor==5001 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:537:5: error: case label does not reduce to an integer constant
+  537 |     case personas[i].idColor==5002 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:541:5: error: case label does not reduce to an integer constant
+  541 |     case personas[i].idColor==5003 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:545:5: error: case label does not reduce to an integer constant
+  545 |     case personas[i].idColor==5004 && personas[i].isEmpty==0:
+      |     ^~~~
+11:07:19 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarColorMasCant':
+..\src\listar.c:535:5: error: case label not within a switch statement
+  535 |     case personas[i].idColor==5002 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:539:5: error: case label not within a switch statement
+  539 |     case personas[i].idColor==5003 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:543:5: error: case label not within a switch statement
+  543 |     case personas[i].idColor==5004 && personas[i].isEmpty==0:
+      |     ^~~~
+11:07:20 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarColorMasCant':
+..\src\listar.c:535:5: error: case label not within a switch statement
+  535 |     case personas[i].idColor==5002 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:539:5: error: case label not within a switch statement
+  539 |     case personas[i].idColor==5003 && personas[i].isEmpty==0:
+      |     ^~~~
+..\src\listar.c:543:5: error: case label not within a switch statement
+  543 |     case personas[i].idColor==5004 && personas[i].isEmpty==0:
+      |     ^~~~
+11:08:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+..\src\listar.c: In function 'listarColorMasCant':
+..\src\listar.c:539:5: error: case label not within a switch statement
+  539 |     case personas[i].idColor==5004 && personas[i].isEmpty==0:
+      |     ^~~~
+11:08:28 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+11:16:10 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:18:02 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+11:23:52 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15}};
+      |                         ^
+      |                                         {        }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15}};
+      |                         ^
+      |                                         {        }
+..\src\calculos.c:31:11: warning: unused variable 'auxTrabajos' [-Wunused-variable]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15}};
+      |           ^~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Primer Parcial.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:24:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+11:29:17 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15},{126,141,20002,2024,1,1},{127,142,20000,2022,10,8}};
+      |                         ^
+      |                                         {        }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15},{126,141,20002,2024,1,1},{127,142,20000,2022,10,8}};
+      |                         ^
+      |                                         {        }                {       }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15},{126,141,20002,2024,1,1},{127,142,20000,2022,10,8}};
+      |                         ^
+      |                                         {        }                {       }                {        }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15},{126,141,20002,2024,1,1},{127,142,20000,2022,10,8}};
+      |                         ^
+      |                                         {        }                {       }                {        }
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+11:30:15 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:31:08 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }                  {        }
+..\src\calculos.c:31:25: warning: missing braces around initializer [-Wmissing-braces]
+   31 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }                  {        }
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+11:31:31 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:32:30 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:33:01 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:32:25: warning: missing braces around initializer [-Wmissing-braces]
+   32 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }
+..\src\calculos.c:32:25: warning: missing braces around initializer [-Wmissing-braces]
+   32 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }
+..\src\calculos.c:32:25: warning: missing braces around initializer [-Wmissing-braces]
+   32 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }                  {        }
+..\src\calculos.c:32:25: warning: missing braces around initializer [-Wmissing-braces]
+   32 |  eTrabajo auxTrabajos[]={{125,140,20001,2023,7,15,0},{126,141,20002,2024,1,1,0},{127,142,20000,2022,10,8,0}};
+      |                         ^
+      |                                         {        }                  {       }                  {        }
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:36:24 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:37:16 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:43:13 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:61:15: error: incompatible types when assigning to type 'eMascota' {aka 'struct <anonymous>'} from type 'eTrabajo' {aka 'struct <anonymous>'}
+   61 |    mascota[i]=auxTrabajos[cont];
+      |               ^~~~~~~~~~~
+..\src\calculos.c:33:11: warning: unused variable 'auxMascotas' [-Wunused-variable]
+   33 |  eMascota auxMascotas[]={{140,"Maximo",1001,5002,15,'n',0},{141,"Adolfin",1003,5003,10,'s',0},{142,"Eugenio",1004,5000,9,'n',0}};
+      |           ^~~~~~~~~~~
+11:43:17 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:61:15: error: incompatible types when assigning to type 'eMascota' {aka 'struct <anonymous>'} from type 'eTrabajo' {aka 'struct <anonymous>'}
+   61 |    mascota[i]=auxTrabajos[cont];
+      |               ^~~~~~~~~~~
+..\src\calculos.c:33:11: warning: unused variable 'auxMascotas' [-Wunused-variable]
+   33 |  eMascota auxMascotas[]={{140,"Maximo",1001,5002,15,'n',0},{141,"Adolfin",1003,5003,10,'s',0},{142,"Eugenio",1004,5000,9,'n',0}};
+      |           ^~~~~~~~~~~
+11:43:34 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:44:38 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:46:06 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:33:11: warning: unused variable 'auxMascotas' [-Wunused-variable]
+   33 |  eMascota auxMascotas[]={{140,"Maximo",1001,5002,200,15,'n',0},{141,"Adolfin",1003,5003,201,10,'s',0},{142,"Eugenio",1004,5000,202,9,'n',0}};
+      |           ^~~~~~~~~~~
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+Info: Nothing to build for Primer Parcial
+11:46:17 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:47:13 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Primer Parcial.o" "..\\src\\Primer Parcial.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\listar.o" "..\\src\\listar.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial
+11:49:47 **** Incremental Build of configuration Debug for project Primer Parcial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o "Primer Parcial.exe" "src\\Primer Parcial.o" "src\\calculos.o" "src\\listar.o" "src\\validaciones.o" 
+Info: Nothing to build for Primer Parcial

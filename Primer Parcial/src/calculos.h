@@ -7,7 +7,7 @@
 
 #ifndef CALCULOS_H_
 #define CALCULOS_H_
-
+#include "cliente.h"
 /**
  * Inicializa los campos isEmpty de las posiciones del array en 1
  *
@@ -24,13 +24,28 @@ int inicializar (eMascota personas[],int len,eTrabajo trabajos[]);
  * @param cosas-> Primer Array a cargar(Tipos)
  * @param cosasC-> Segundo Array a cargar(Colores)
  * @param cosasS-> Tercer Array a cargar(Servicios)
+ * @param cosasCl->Cuarto array a cargar (clientes)
  * @param tamUno-> Tamaño del array de Tipos
  * @param tamDos-> Tamaño del array de Colores
  * @param tamTres->Tamaño del array de Servicios
  * @return
  */
-int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],int tamUno,int tamDos,int tamTres);
-
+/**
+ *
+ * @param cosas-> Primer Array a cargar(Tipos)
+ * @param cosasC-> Segundo Array a cargar(Colores)
+ * @param cosasS-> Tercer Array a cargar(Servicios)
+ * @param cosasCl->Cuarto array a cargar (clientes)
+ * @param trabajo->Quinto array a cargar(trabajos)
+ * @param mascota->Sexto array a cargar (mascotas)
+ * @param tamUno-> Tamaño del array de Tipos
+ * @param tamDos-> Tamaño del array de Colores
+ * @param tamTres->Tamaño del array de Servicios
+ * @param tamCuatro->Tamaño del array de clientes
+ * @param tamCinco->Tamaño del Array de mascotas y trabajos
+ * @return
+ */
+int cargaForzada(eTipo cosas[],eColor cosasC[],eServicio cosasS[],eCliente cosasCl[],eTrabajo trabajo[],eMascota mascota[],int tamUno,int tamDos,int tamTres,int tamCuatro,int tamCinco);
 /**
  * Busca la primer posicion libre del array de mascotas,cuando la encuentra corta y retorna 1
  *
@@ -79,13 +94,15 @@ int cargarFecha(eTrabajo* trabajo,int pos);
  * @param ids-> Contador de id´s autoincrementales
  * @param tipo-> Array de tipos para comprobar que el tipo de mascota ingresado sea correcto
  * @param color-> Array de colores para comprobar que el tipo de mascota ingresado sea correcto
+ * @param cliente->Array de clientes para comprobar que se cargue bien el id del cliente
  * @param TAM -> Tamaño del array de personas
  * @param tamTipo -> Tamaño del array de tipos
  * @param tamColor -> Tamaño del array de colores
+ * @param tamCliente->Tamaño del array de clientes
  * @return
  */
-int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],int TAM,int tamTipo,int tamColor);
 
+int cargar(eMascota personas[],int* ids,eTipo tipo[],eColor color[],eCliente cliente[],int TAM,int tamTipo,int tamColor,int tamCliente);
 /**
  * Utiliza buscarPorId para poder localizar la posicion a modificar en el array de personas
  * (en este caso solo permite modificar el tipo y el estado de vacunacion),retorna 1 si todo sale bien
@@ -119,43 +136,6 @@ int baja(eMascota personas[],int TAM);
 int ordenar(eMascota personas[],int TAM);
 
 /**
- * Utiliza ordenar segun los criterios del trabajo y lista el array de personas
- *
- * @param personas-> Array a listar
- * @param TAM-> Tamaño del Array
- * @param tipo-> Array de tipos (se utiliza para comprobar el idTipo del array de personas para poder mostrar
- * la descripcion a la hora de listar)
- * @param tamTipo-> Tamaño del array de Tipos
- * @param color->Array de tipos (se utiliza para comprobar el idColor del array de personas para poder mostrar
- * la descripcion a la hora de listar)
- * @param tamColor-> Tamaño del array de Colores
- */
-void listarMascotas(eMascota personas[],int TAM,eTipo tipo[],int tamTipo,eColor color[],int tamColor);
-/**
- * Lista el Array de tipos
- *
- * @param tipo-> Array a listar(Tipos)
- * @param tamTipo-> Tamaño del array de Tipos
- */
-void listarTipos (eTipo tipo[],int tamTipo);
-
-/**
- * Lista el Array de Colores
- *
- * @param tipo-> Array a listar(Colores)
- * @param tamColor-> Tamaño del array de Colores
- */
-void listarColores(eColor color[],int tamColor);
-
-/**
- * Lista el Array de Servicios
- *
- * @param tipo-> Array a listar(Servicios)
- * @param tamServicio-> Tamaño del array de Servicios
- */
-void listarServicios(eServicio servicio[],int tamServicio);
-
-/**
  * Utiliza buscarTrabajoLibre para encontrar una posicion libre y luego lista las mascotas ingresadas
  * para luego tomar los datos
  *
@@ -169,20 +149,12 @@ void listarServicios(eServicio servicio[],int tamServicio);
  * @param tamColor-> Tamaño del array de colores
  * @param tipo-> Array de Tipos para el listado de mascotas
  * @param tamTipo-> Tamaño del array de Tipos
+ * @param clientes-> Array de clientes para poder listar las mascotas
+ * @param tamClientes-> Tamaño del array de clientes
  * @param contIdTrabajo-> Contador del id de los Trabajos (autoIncremental)
  * @return
  */
 int ingresarTrabajo(eMascota sujetos[],int tamSujetos,eTrabajo* trabajo,int tamTrabajo,eServicio servicios[],int tamServicios,
-eColor color[],int tamColor,eTipo tipo[],int tamTipo,int* contIdTrabajo);
+		eColor color[],int tamColor,eTipo tipo[],int tamTipo,eCliente clientes[],int tamClientes,int* contIdTrabajo);
 
-/**
- * Lista los trabajos ingresados hasta el momento
- *
- * @param trabajo-> Puntero al array de Trabajos
- * @param TAM-> Tamaño del array de Trabajos y del de mascotas
- * @param mascota-> Array de mascotas mostrar el nombre en el listado
- * @param servicio-> Array de servicios Para mostrar el servicio a realizarle en la lista
- * @param tamServicio-> Tamaño del array de servicios
- */
-void listarTrabajos(eTrabajo* trabajo,int TAM,eMascota mascota[],eServicio servicio[],int tamServicio);
 #endif /* CALCULOS_H_ */
